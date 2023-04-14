@@ -18,8 +18,8 @@ call :my_sleep
 strip %target%.exe
 call :my_sleep
 
-upx %target%.exe
-goto :eof
+rem upx %target%.exe
+rem goto :eof
 
 :my_sleep
 rem echo "wait 1s ..."
