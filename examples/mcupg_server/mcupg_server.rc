@@ -1,0 +1,30 @@
+#include <windows.h>
+IDI_ICON1 ICON DISCARDABLE "mcupg_server.ico"
+1 VERSIONINFO
+ FILEVERSION 1,0,0,2
+ PRODUCTVERSION 1,0,0,2
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName", "ChangHong"
+            VALUE "FileDescription", "Multicast Upgrade Server"
+            VALUE "FileVersion", "1.0.0.2"
+            VALUE "InternalName", "Multicast Upgrade Server"
+            VALUE "LegalCopyright", "Copyright (C) 2023 ChangHong"
+            VALUE "OriginalFilename", "mcupg_server.exe"
+            VALUE "ProductName", "McupgServer"
+            VALUE "ProductVersion", "1.0.0.2"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1252
+    END
+END

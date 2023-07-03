@@ -1,0 +1,51 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"C_Cpp.default.includePath": [
+            "${default}",
+            "${workspaceFolder}",
+            "${workspaceFolder}/libiup/include",
+        ],
+		"files.exclude": {
+			"**/.git": true,
+			"**/.gitignore": true,
+			"**/*.a": true,
+			"**/*.bak": true,
+			"**/*.cmd": true,
+			"**/*.o": true,
+			"**/*.so": true,
+			"**/*.su": true,
+			"**/*.tmp": true,
+			"**/*.gz": true,
+			"**/*.tar": true,
+			"**/*.zip": true,
+			"**/*.bin": true,
+			"**/*.img": true,
+			"**/*.*yyyy": true,
+			"**/*.prepare*": true,
+			"**/*.map": true,
+			"**/*.lds": true,
+			"**/*.yml": true,
+			"**/*.gitkeep": true,
+			"debug": true,
+			"release": true,
+			"**/*.built*": true,
+			"**/ipkg-install": true,
+			"**/ipkg-ipq": true,
+			"**/*.dep_files": true,
+			"examples/CPP/*": true,
+			"examples/Lua/*": true,
+			"examples/LED/*": true,
+			"examples/tests/*": true,
+			"examples/shell_extensions/*": true
+		},
+		"files.associations": {
+			"ratio": "c",
+			"list": "c"
+		},
+	}
+}
